@@ -42,7 +42,7 @@ const ProgramDetails: React.FC = () => {
     const handleDownload = async (id: string) => {
         try {
             const response = await axios.get(
-                `https://azsa-backend.onrender.com/academics/downloadfile/${id}`,
+                `https://azsa-backend.onrender.com/api/academics/downloadfile/${id}`,
                 { responseType: 'blob' }  // Ensure binary data is handled properly
             );
     
