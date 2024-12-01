@@ -8,7 +8,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
