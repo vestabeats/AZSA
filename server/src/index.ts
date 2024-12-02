@@ -11,7 +11,7 @@ dbConnection()
 const PORT = process.env.PORT || 5000
 const app = express()
 app.use(cors({
-    origin:"https://azsa-client.onrender.com",
+    origin:"https://azsa.onrender.com",
     methods:["GET","POST","PUT","DELETE"],
     credentials:true
 }))
